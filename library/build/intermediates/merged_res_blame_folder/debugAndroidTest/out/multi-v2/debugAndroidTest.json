@@ -1963,25 +1963,6 @@
                     }
                 },
                 {
-                    "source": "/Users/sarangyang/AndroidStudioProjects/settings1/Settings/library/build/intermediates/packaged_res/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,6,10,11,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,176,293,394,504,579,632,693,752,797,860",
-                        "endLines": "5,9,10,12,13,14,15,16,17,18,19",
-                        "endColumns": "19,19,100,13,74,52,60,58,44,62,68",
-                        "endOffsets": "171,288,389,499,574,627,688,747,792,855,924"
-                    },
-                    "to": {
-                        "startLines": "2,6,1768,1769,1771,1877,1959,1971,1976,1977,1992",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "150,271,114297,114398,114508,125251,136960,138095,138393,138438,139379",
-                        "endLines": "5,9,1768,1770,1771,1877,1959,1971,1976,1977,1992",
-                        "endColumns": "19,19,100,13,74,52,60,58,44,62,68",
-                        "endOffsets": "266,383,114393,114503,114578,125299,137016,138149,138433,138496,139443"
-                    }
-                },
-                {
                     "source": "/Users/sarangyang/.gradle/caches/transforms-3/3df3e3eb0a4dfdc6c6508f0f107146af/transformed/customview-poolingcontainer-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -2157,6 +2138,25 @@
                         "startOffsets": "103729",
                         "endColumns": "40",
                         "endOffsets": "103765"
+                    }
+                },
+                {
+                    "source": "/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/packaged_res/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,6,10,11,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,176,293,394,504,579,632,693,752,797,860",
+                        "endLines": "5,9,10,12,13,14,15,16,17,18,19",
+                        "endColumns": "19,19,100,13,74,52,60,58,44,62,68",
+                        "endOffsets": "171,288,389,499,574,627,688,747,792,855,924"
+                    },
+                    "to": {
+                        "startLines": "2,6,1768,1769,1771,1877,1959,1971,1976,1977,1992",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "150,271,114297,114398,114508,125251,136960,138095,138393,138438,139379",
+                        "endLines": "5,9,1768,1770,1771,1877,1959,1971,1976,1977,1992",
+                        "endColumns": "19,19,100,13,74,52,60,58,44,62,68",
+                        "endOffsets": "266,383,114393,114503,114578,125299,137016,138149,138433,138496,139443"
                     }
                 },
                 {

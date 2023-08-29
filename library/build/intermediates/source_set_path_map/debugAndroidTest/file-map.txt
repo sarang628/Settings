@@ -70,8 +70,8 @@ com.example.torangscreensettings.test.library-foundation-1.4.3-68 /Users/sarangy
 com.example.torangscreensettings.test.library-lifecycle-runtime-ktx-2.6.1-69 /Users/sarangyang/.gradle/caches/transforms-3/f14771d0ed841d0fb1b74d0810486999/transformed/lifecycle-runtime-ktx-2.6.1/res
 com.example.torangscreensettings.test.library-lifecycle-viewmodel-ktx-2.6.1-70 /Users/sarangyang/.gradle/caches/transforms-3/f5f4a99642a8379b8ec6ec800824f659/transformed/lifecycle-viewmodel-ktx-2.6.1/res
 com.example.torangscreensettings.test.library-ui-text-1.4.3-71 /Users/sarangyang/.gradle/caches/transforms-3/f948744d6272468d52e26983de3e5900/transformed/ui-text-1.4.3/res
-com.example.torangscreensettings.test.library-androidTest-72 /Users/sarangyang/AndroidStudioProjects/settings1/Settings/library/build/generated/res/resValues/androidTest/debug
-com.example.torangscreensettings.test.library-mergeDebugAndroidTestResources-73 /Users/sarangyang/AndroidStudioProjects/settings1/Settings/library/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.example.torangscreensettings.test.library-mergeDebugAndroidTestResources-74 /Users/sarangyang/AndroidStudioProjects/settings1/Settings/library/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.example.torangscreensettings.test.library-merged_res-75 /Users/sarangyang/AndroidStudioProjects/settings1/Settings/library/build/intermediates/merged_res/debugAndroidTest
-com.example.torangscreensettings.test.library-packaged_res-76 /Users/sarangyang/AndroidStudioProjects/settings1/Settings/library/build/intermediates/packaged_res/debug
+com.example.torangscreensettings.test.library-androidTest-72 /Users/sarangyang/AndroidStudioProjects/Settings/library/build/generated/res/resValues/androidTest/debug
+com.example.torangscreensettings.test.library-mergeDebugAndroidTestResources-73 /Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.torangscreensettings.test.library-mergeDebugAndroidTestResources-74 /Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.torangscreensettings.test.library-merged_res-75 /Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/merged_res/debugAndroidTest
+com.example.torangscreensettings.test.library-packaged_res-76 /Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/packaged_res/debug
