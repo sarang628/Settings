@@ -5,15 +5,15 @@
 5    <uses-sdk android:minSdkVersion="24" />
 6
 7    <application>
-7-->/Users/sarangyang/AndroidStudioProjects/Settings/library/src/main/AndroidManifest.xml:5:5-10:19
+7-->/Users/sarangyang/AndroidStudioProjects/settings1/Settings/library/src/main/AndroidManifest.xml:5:5-10:19
 8        <activity
-8-->/Users/sarangyang/AndroidStudioProjects/Settings/library/src/main/AndroidManifest.xml:6:9-9:63
+8-->/Users/sarangyang/AndroidStudioProjects/settings1/Settings/library/src/main/AndroidManifest.xml:6:9-9:63
 9            android:name="com.example.torangscreensettings.SettingsActivity"
-9-->/Users/sarangyang/AndroidStudioProjects/Settings/library/src/main/AndroidManifest.xml:7:13-45
+9-->/Users/sarangyang/AndroidStudioProjects/settings1/Settings/library/src/main/AndroidManifest.xml:7:13-45
 10            android:exported="true"
-10-->/Users/sarangyang/AndroidStudioProjects/Settings/library/src/main/AndroidManifest.xml:8:13-36
+10-->/Users/sarangyang/AndroidStudioProjects/settings1/Settings/library/src/main/AndroidManifest.xml:8:13-36
 11            android:label="@string/title_activity_settings" />
-11-->/Users/sarangyang/AndroidStudioProjects/Settings/library/src/main/AndroidManifest.xml:9:13-60
+11-->/Users/sarangyang/AndroidStudioProjects/settings1/Settings/library/src/main/AndroidManifest.xml:9:13-60
 12    </application>
 13
 14</manifest>
