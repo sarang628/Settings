@@ -3,22 +3,25 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import com.sryang.torang_repository.session.SessionService
+import kotlinx.coroutines.launch
 
 
 @Composable
 fun SettingsScreen(onLogout: (Int) -> Unit) {
     val sessionService = SessionService(LocalContext.current)
+    val coroutine = rememberCoroutineScope()
     Column {
         Text(text = "Settings")
-        sessionService.getToken()?.let {
-            Text(text = "token:$it")
-        }
+        Text(text = "token:${sessionService.getToken()}")
         Button(onClick = {
             onLogout.invoke(0)
-            sessionService.removeToken()
+            coroutine.launch {
+                sessionService.removeToken()
+            }
         }) {
             Text(text = "로그아웃")
         }
@@ -38,8 +41,13 @@ fun PreviewSettingsScreen() {
 @Composable
 fun PreviewTest() {
     val sessionService = SessionService(LocalContext.current)
+    val coroutine = rememberCoroutineScope()
     Column {
-        Button(onClick = { sessionService.saveToken("abcd") }) {
+        Button(onClick = {
+            coroutine.launch {
+                sessionService.saveToken("abcd")
+            }
+        }) {
             Text(text = "Login")
         }
     }
