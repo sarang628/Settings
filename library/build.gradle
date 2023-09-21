@@ -66,5 +66,4 @@ dependencies {
 
     /** local */
     implementation "com.github.sarang628:Theme:$themeVersion"
-    implementation "com.github.sarang628:TorangRepository:$repositoryVersion"
 }
