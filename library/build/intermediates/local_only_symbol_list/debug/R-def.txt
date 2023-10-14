@@ -4,6 +4,7 @@ array reply_entries
 array reply_values
 drawable ic_account
 drawable ic_alarm
+drawable ic_back
 drawable ic_commerce
 drawable ic_help
 drawable ic_information

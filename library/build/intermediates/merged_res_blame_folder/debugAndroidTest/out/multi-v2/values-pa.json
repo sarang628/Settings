@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.torangscreensettings.test.library-mergeDebugAndroidTestResources-73:/values-pa/values-pa.xml",
+            "outputFile": "com.example.torangscreensettings.test.library-mergeDebugAndroidTestResources-61:/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "/Users/sarangyang/.gradle/caches/transforms-3/102bc27141abae035fe14d02d16738bc/transformed/ui-1.4.3/res/values-pa/values-pa.xml",

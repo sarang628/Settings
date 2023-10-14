@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.torangscreensettings.test.library-mergeDebugAndroidTestResources-73:/values-az/values-az.xml",
+            "outputFile": "com.example.torangscreensettings.test.library-mergeDebugAndroidTestResources-61:/values-az/values-az.xml",
             "map": [
                 {
                     "source": "/Users/sarangyang/.gradle/caches/transforms-3/778a3a7103d803da9d75b966ceba2d2d/transformed/material3-1.1.0/res/values-az/values-az.xml",

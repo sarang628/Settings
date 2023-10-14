@@ -3,353 +3,140 @@
 3    package="com.example.torangscreensettings.test" >
 4
 5    <uses-sdk
-5-->/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3394090451709791836.xml:5:5-74
+5-->/Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5873153289956049257.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3394090451709791836.xml:5:15-41
+6-->/Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5873153289956049257.xml:5:15-41
 7        android:targetSdkVersion="30" />
-7-->/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3394090451709791836.xml:5:42-71
+7-->/Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5873153289956049257.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3394090451709791836.xml:11:5-15:87
+9-->/Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5873153289956049257.xml:11:5-15:87
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3394090451709791836.xml:11:22-76
+10-->/Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5873153289956049257.xml:11:22-76
 11        android:functionalTest="false"
-11-->/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3394090451709791836.xml:14:22-52
+11-->/Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5873153289956049257.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3394090451709791836.xml:13:22-53
+12-->/Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5873153289956049257.xml:13:22-53
 13        android:label="Tests for com.example.torangscreensettings.test"
-13-->/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3394090451709791836.xml:15:22-85
+13-->/Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5873153289956049257.xml:15:22-85
 14        android:targetPackage="com.example.torangscreensettings.test" />
-14-->/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3394090451709791836.xml:12:22-83
+14-->/Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5873153289956049257.xml:12:22-83
 15
-16    <uses-permission android:name="android.permission.INTERNET" />
-16-->[com.github.sarang628:TorangRepository:51ff82f4b2] /Users/sarangyang/.gradle/caches/transforms-3/9656bf39a68e1f6a8fc8f65e79304507/transformed/TorangRepository-51ff82f4b2/AndroidManifest.xml:7:5-67
-16-->[com.github.sarang628:TorangRepository:51ff82f4b2] /Users/sarangyang/.gradle/caches/transforms-3/9656bf39a68e1f6a8fc8f65e79304507/transformed/TorangRepository-51ff82f4b2/AndroidManifest.xml:7:22-64
-17    <uses-permission android:name="android.permission.WAKE_LOCK" />
-17-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:23:5-68
-17-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:23:22-65
-18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:24:5-79
-18-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:24:22-76
-19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-19-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:25:5-81
-19-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:25:22-78
-20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-20-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:5-77
-20-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:22-74
+16    <permission
+16-->[androidx.core:core:1.9.0] /Users/sarangyang/.gradle/caches/transforms-3/552159ab263e74c9be3c44ea9550838d/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.torangscreensettings.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] /Users/sarangyang/.gradle/caches/transforms-3/552159ab263e74c9be3c44ea9550838d/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] /Users/sarangyang/.gradle/caches/transforms-3/552159ab263e74c9be3c44ea9550838d/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.torangscreensettings.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] /Users/sarangyang/.gradle/caches/transforms-3/552159ab263e74c9be3c44ea9550838d/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] /Users/sarangyang/.gradle/caches/transforms-3/552159ab263e74c9be3c44ea9550838d/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 21
-22    <permission
-22-->[androidx.core:core:1.9.0] /Users/sarangyang/.gradle/caches/transforms-3/552159ab263e74c9be3c44ea9550838d/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-23        android:name="com.example.torangscreensettings.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-23-->[androidx.core:core:1.9.0] /Users/sarangyang/.gradle/caches/transforms-3/552159ab263e74c9be3c44ea9550838d/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-24        android:protectionLevel="signature" />
-24-->[androidx.core:core:1.9.0] /Users/sarangyang/.gradle/caches/transforms-3/552159ab263e74c9be3c44ea9550838d/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
-25
-26    <uses-permission android:name="com.example.torangscreensettings.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-26-->[androidx.core:core:1.9.0] /Users/sarangyang/.gradle/caches/transforms-3/552159ab263e74c9be3c44ea9550838d/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-26-->[androidx.core:core:1.9.0] /Users/sarangyang/.gradle/caches/transforms-3/552159ab263e74c9be3c44ea9550838d/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+22    <application
+22-->/Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5873153289956049257.xml:7:5-9:19
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] /Users/sarangyang/.gradle/caches/transforms-3/552159ab263e74c9be3c44ea9550838d/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false" >
+26        <uses-library android:name="android.test.runner" />
+26-->/Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5873153289956049257.xml:8:9-60
+26-->/Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5873153289956049257.xml:8:23-57
 27
-28    <application
-28-->/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3394090451709791836.xml:7:5-9:19
-29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.9.0] /Users/sarangyang/.gradle/caches/transforms-3/552159ab263e74c9be3c44ea9550838d/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-30        android:debuggable="true"
-31        android:extractNativeLibs="false"
-32        android:usesCleartextTraffic="true" >
-32-->[com.github.sarang628:TorangRepository:51ff82f4b2] /Users/sarangyang/.gradle/caches/transforms-3/9656bf39a68e1f6a8fc8f65e79304507/transformed/TorangRepository-51ff82f4b2/AndroidManifest.xml:9:18-53
-33        <uses-library android:name="android.test.runner" />
-33-->/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3394090451709791836.xml:8:9-60
-33-->/Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest3394090451709791836.xml:8:23-57
-34
-35        <activity
-35-->[:library] /Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:63
-36            android:name="com.example.torangscreensettings.SettingsActivity"
-36-->[:library] /Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-77
-37            android:exported="true"
-37-->[:library] /Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-36
-38            android:label="@string/title_activity_settings" />
-38-->[:library] /Users/sarangyang/AndroidStudioProjects/Settings/library/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-60
-39
-40        <provider
-40-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-41            android:name="androidx.startup.InitializationProvider"
-41-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-42            android:authorities="com.example.torangscreensettings.test.androidx-startup"
-42-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
-43            android:exported="false" >
-43-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
-44            <meta-data
-44-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-45-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-46                android:value="androidx.startup" />
-46-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
-47            <meta-data
-47-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
-48                android:name="androidx.work.WorkManagerInitializer"
-48-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
-49                android:value="androidx.startup" />
-49-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
-50            <meta-data
-50-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/sarangyang/.gradle/caches/transforms-3/577ad7280b157de75b46a79cff3fcf0a/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-51-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/sarangyang/.gradle/caches/transforms-3/577ad7280b157de75b46a79cff3fcf0a/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-52                android:value="androidx.startup" />
-52-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/sarangyang/.gradle/caches/transforms-3/577ad7280b157de75b46a79cff3fcf0a/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-53            <meta-data
-53-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-54                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-54-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-55                android:value="androidx.startup" />
-55-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-56        </provider>
-57
-58        <uses-library
-58-->[androidx.window:window:1.0.0] /Users/sarangyang/.gradle/caches/transforms-3/d513e0fa4ce4935081726df0e30ab4ae/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-59            android:name="androidx.window.extensions"
-59-->[androidx.window:window:1.0.0] /Users/sarangyang/.gradle/caches/transforms-3/d513e0fa4ce4935081726df0e30ab4ae/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-60            android:required="false" />
-60-->[androidx.window:window:1.0.0] /Users/sarangyang/.gradle/caches/transforms-3/d513e0fa4ce4935081726df0e30ab4ae/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-61        <uses-library
-61-->[androidx.window:window:1.0.0] /Users/sarangyang/.gradle/caches/transforms-3/d513e0fa4ce4935081726df0e30ab4ae/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-62            android:name="androidx.window.sidecar"
-62-->[androidx.window:window:1.0.0] /Users/sarangyang/.gradle/caches/transforms-3/d513e0fa4ce4935081726df0e30ab4ae/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-63            android:required="false" />
-63-->[androidx.window:window:1.0.0] /Users/sarangyang/.gradle/caches/transforms-3/d513e0fa4ce4935081726df0e30ab4ae/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
-64
-65        <service
-65-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
-66            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-66-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
-67            android:directBootAware="false"
-67-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
-68            android:enabled="@bool/enable_system_alarm_service_default"
-68-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
-69            android:exported="false" />
-69-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
-70        <service
-70-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
-71            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-71-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
-72            android:directBootAware="false"
-72-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
-73            android:enabled="@bool/enable_system_job_service_default"
-73-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
-74            android:exported="true"
-74-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
-75            android:permission="android.permission.BIND_JOB_SERVICE" />
-75-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
-76        <service
-76-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
-77            android:name="androidx.work.impl.foreground.SystemForegroundService"
-77-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
-78            android:directBootAware="false"
-78-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
-79            android:enabled="@bool/enable_system_foreground_service_default"
-79-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
-80            android:exported="false" />
-80-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
-81
-82        <receiver
-82-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
-83            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-83-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
-84            android:directBootAware="false"
-84-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
-85            android:enabled="true"
-85-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
-86            android:exported="false" />
-86-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
-87        <receiver
-87-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
-88            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-88-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
-89            android:directBootAware="false"
-89-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
-90            android:enabled="false"
-90-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
-91            android:exported="false" >
-91-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
-92            <intent-filter>
-92-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
-93                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-93-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
-93-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
-94                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-94-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
-94-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
-95            </intent-filter>
-96        </receiver>
-97        <receiver
-97-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
-98            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-98-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
-99            android:directBootAware="false"
-99-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
-100            android:enabled="false"
-100-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
-101            android:exported="false" >
-101-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
-102            <intent-filter>
-102-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
-103                <action android:name="android.intent.action.BATTERY_OKAY" />
-103-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
-103-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
-104                <action android:name="android.intent.action.BATTERY_LOW" />
-104-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
-104-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
-105            </intent-filter>
-106        </receiver>
-107        <receiver
-107-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
-108            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-108-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
-109            android:directBootAware="false"
-109-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
-110            android:enabled="false"
-110-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
-111            android:exported="false" >
-111-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
-112            <intent-filter>
-112-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
-113                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-113-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
-113-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
-114                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-114-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
-114-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
-115            </intent-filter>
-116        </receiver>
-117        <receiver
-117-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
-118            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-118-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
-119            android:directBootAware="false"
-119-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
-120            android:enabled="false"
-120-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
-121            android:exported="false" >
-121-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
-122            <intent-filter>
-122-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:106:13-108:29
-123                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-123-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:17-79
-123-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:25-76
-124            </intent-filter>
-125        </receiver>
-126        <receiver
-126-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
-127            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-127-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
-128            android:directBootAware="false"
-128-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
-129            android:enabled="false"
-129-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
-130            android:exported="false" >
-130-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
-131            <intent-filter>
-131-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
-132                <action android:name="android.intent.action.BOOT_COMPLETED" />
-132-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:117:17-79
-132-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:117:25-76
-133                <action android:name="android.intent.action.TIME_SET" />
-133-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
-133-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
-134                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-134-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
-134-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
-135            </intent-filter>
-136        </receiver>
-137        <receiver
-137-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
-138            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-138-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
-139            android:directBootAware="false"
-139-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
-140            android:enabled="@bool/enable_system_alarm_service_default"
-140-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
-141            android:exported="false" >
-141-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
-142            <intent-filter>
-142-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
-143                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-143-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
-143-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
-144            </intent-filter>
-145        </receiver>
-146        <receiver
-146-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
-147            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-147-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
-148            android:directBootAware="false"
-148-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
-149            android:enabled="true"
-149-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
-150            android:exported="true"
-150-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
-151            android:permission="android.permission.DUMP" >
-151-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
-152            <intent-filter>
-152-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
-153                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-153-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
-153-->[androidx.work:work-runtime:2.8.1] /Users/sarangyang/.gradle/caches/transforms-3/0d065c5b65e7355a9d370ef079789ec1/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
-154            </intent-filter>
-155        </receiver>
-156
-157        <activity
-157-->[androidx.compose.ui:ui-tooling:1.4.3] /Users/sarangyang/.gradle/caches/transforms-3/95411208817b6f9d5c99b65d1d707f16/transformed/ui-tooling-1.4.3/AndroidManifest.xml:23:9-25:39
-158            android:name="androidx.compose.ui.tooling.PreviewActivity"
-158-->[androidx.compose.ui:ui-tooling:1.4.3] /Users/sarangyang/.gradle/caches/transforms-3/95411208817b6f9d5c99b65d1d707f16/transformed/ui-tooling-1.4.3/AndroidManifest.xml:24:13-71
-159            android:exported="true" />
-159-->[androidx.compose.ui:ui-tooling:1.4.3] /Users/sarangyang/.gradle/caches/transforms-3/95411208817b6f9d5c99b65d1d707f16/transformed/ui-tooling-1.4.3/AndroidManifest.xml:25:13-36
-160
-161        <receiver
-161-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-162            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-162-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-163            android:directBootAware="false"
-163-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-164            android:enabled="true"
-164-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-165            android:exported="true"
-165-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-166            android:permission="android.permission.DUMP" >
-166-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-167            <intent-filter>
-167-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-168                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-168-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-168-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-169            </intent-filter>
-170            <intent-filter>
-170-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-171                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-171-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-171-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-172            </intent-filter>
-173            <intent-filter>
-173-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-174                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-174-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-174-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-175            </intent-filter>
-176            <intent-filter>
-176-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-177                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-177-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-177-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-178            </intent-filter>
-179        </receiver>
-180
-181        <service
-181-->[androidx.room:room-runtime:2.5.1] /Users/sarangyang/.gradle/caches/transforms-3/ba0899f403a0452978708819173590ee/transformed/room-runtime-2.5.1/AndroidManifest.xml:24:9-28:63
-182            android:name="androidx.room.MultiInstanceInvalidationService"
-182-->[androidx.room:room-runtime:2.5.1] /Users/sarangyang/.gradle/caches/transforms-3/ba0899f403a0452978708819173590ee/transformed/room-runtime-2.5.1/AndroidManifest.xml:25:13-74
-183            android:directBootAware="true"
-183-->[androidx.room:room-runtime:2.5.1] /Users/sarangyang/.gradle/caches/transforms-3/ba0899f403a0452978708819173590ee/transformed/room-runtime-2.5.1/AndroidManifest.xml:26:13-43
-184            android:exported="false" />
-184-->[androidx.room:room-runtime:2.5.1] /Users/sarangyang/.gradle/caches/transforms-3/ba0899f403a0452978708819173590ee/transformed/room-runtime-2.5.1/AndroidManifest.xml:27:13-37
-185    </application>
-186
-187</manifest>
+28        <activity
+28-->[:library] /Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:63
+29            android:name="com.example.torangscreensettings.SettingsActivity"
+29-->[:library] /Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-77
+30            android:exported="true"
+30-->[:library] /Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-36
+31            android:label="@string/title_activity_settings" />
+31-->[:library] /Users/sarangyang/AndroidStudioProjects/Torang/Settings/library/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-60
+32
+33        <provider
+33-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+34            android:name="androidx.startup.InitializationProvider"
+34-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+35            android:authorities="com.example.torangscreensettings.test.androidx-startup"
+35-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+36            android:exported="false" >
+36-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+37            <meta-data
+37-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+38-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+39                android:value="androidx.startup" />
+39-->[androidx.emoji2:emoji2:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/17bbf8fe898e7471997f97dcbad97037/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+40            <meta-data
+40-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/sarangyang/.gradle/caches/transforms-3/577ad7280b157de75b46a79cff3fcf0a/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/sarangyang/.gradle/caches/transforms-3/577ad7280b157de75b46a79cff3fcf0a/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+42                android:value="androidx.startup" />
+42-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/sarangyang/.gradle/caches/transforms-3/577ad7280b157de75b46a79cff3fcf0a/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+43            <meta-data
+43-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+44-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+45                android:value="androidx.startup" />
+45-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+46        </provider>
+47
+48        <uses-library
+48-->[androidx.window:window:1.0.0] /Users/sarangyang/.gradle/caches/transforms-3/d513e0fa4ce4935081726df0e30ab4ae/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+49            android:name="androidx.window.extensions"
+49-->[androidx.window:window:1.0.0] /Users/sarangyang/.gradle/caches/transforms-3/d513e0fa4ce4935081726df0e30ab4ae/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+50            android:required="false" />
+50-->[androidx.window:window:1.0.0] /Users/sarangyang/.gradle/caches/transforms-3/d513e0fa4ce4935081726df0e30ab4ae/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+51        <uses-library
+51-->[androidx.window:window:1.0.0] /Users/sarangyang/.gradle/caches/transforms-3/d513e0fa4ce4935081726df0e30ab4ae/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+52            android:name="androidx.window.sidecar"
+52-->[androidx.window:window:1.0.0] /Users/sarangyang/.gradle/caches/transforms-3/d513e0fa4ce4935081726df0e30ab4ae/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0] /Users/sarangyang/.gradle/caches/transforms-3/d513e0fa4ce4935081726df0e30ab4ae/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+54
+55        <activity
+55-->[androidx.compose.ui:ui-tooling:1.4.3] /Users/sarangyang/.gradle/caches/transforms-3/95411208817b6f9d5c99b65d1d707f16/transformed/ui-tooling-1.4.3/AndroidManifest.xml:23:9-25:39
+56            android:name="androidx.compose.ui.tooling.PreviewActivity"
+56-->[androidx.compose.ui:ui-tooling:1.4.3] /Users/sarangyang/.gradle/caches/transforms-3/95411208817b6f9d5c99b65d1d707f16/transformed/ui-tooling-1.4.3/AndroidManifest.xml:24:13-71
+57            android:exported="true" />
+57-->[androidx.compose.ui:ui-tooling:1.4.3] /Users/sarangyang/.gradle/caches/transforms-3/95411208817b6f9d5c99b65d1d707f16/transformed/ui-tooling-1.4.3/AndroidManifest.xml:25:13-36
+58
+59        <receiver
+59-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+60            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+60-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+61            android:directBootAware="false"
+61-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+62            android:enabled="true"
+62-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+63            android:exported="true"
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+64            android:permission="android.permission.DUMP" >
+64-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+65            <intent-filter>
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+66                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+67            </intent-filter>
+68            <intent-filter>
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+69                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+70            </intent-filter>
+71            <intent-filter>
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+72                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+73            </intent-filter>
+74            <intent-filter>
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+75                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sarangyang/.gradle/caches/transforms-3/be404484158a99ffdcdb67869be217b2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+76            </intent-filter>
+77        </receiver>
+78    </application>
+79
+80</manifest>

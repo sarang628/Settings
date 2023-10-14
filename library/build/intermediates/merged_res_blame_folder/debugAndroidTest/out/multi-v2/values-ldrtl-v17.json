@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.torangscreensettings.test.library-mergeDebugAndroidTestResources-73:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.torangscreensettings.test.library-mergeDebugAndroidTestResources-61:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
                     "source": "/Users/sarangyang/.gradle/caches/transforms-3/19c54591dab6c01f7433f20c52104c2a/transformed/material-1.8.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",

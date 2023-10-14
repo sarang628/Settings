@@ -2,6 +2,7 @@ int array reply_entries 0x0
 int array reply_values 0x0
 int drawable ic_account 0x0
 int drawable ic_alarm 0x0
+int drawable ic_back 0x0
 int drawable ic_commerce 0x0
 int drawable ic_help 0x0
 int drawable ic_information 0x0
