@@ -1,3 +1,4 @@
+import android.app.AlertDialog
 import android.widget.Toast
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -60,6 +61,7 @@ fun SettingsScreen(onLogout: () -> Unit) {
 
 @Composable
 fun LoginSetting(onLogout: () -> Unit) {
+    val context = LocalContext.current
     Column(
         Modifier
             .background(Color(0x33FFFFFF))
@@ -73,7 +75,12 @@ fun LoginSetting(onLogout: () -> Unit) {
                 .fillMaxWidth()
                 .height(50.dp)
                 .clickable {
-                    onLogout.invoke()
+                    AlertDialog
+                        .Builder(context)
+                        .setMessage("로그아웃 하시겠습니까?")
+                        .setPositiveButton("예") { _, _ -> onLogout.invoke() }
+                        .setNegativeButton("아니오") { _, _ -> }
+                        .show()
                 }
         )
         {
