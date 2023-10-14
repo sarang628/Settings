@@ -1,6 +1,7 @@
 import android.widget.Toast
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -31,7 +32,7 @@ import kotlinx.coroutines.launch
 
 
 @Composable
-fun SettingsScreen(onLogout: (Int) -> Unit) {
+fun SettingsScreen(onLogout: () -> Unit) {
     val coroutine = rememberCoroutineScope()
     Column(
         Modifier
@@ -53,13 +54,12 @@ fun SettingsScreen(onLogout: (Int) -> Unit) {
             Spacer(modifier = Modifier.width(20.dp))
             Text(text = " Settings and privacy", fontSize = 18.sp, fontWeight = FontWeight.Bold)
         }
-        LoginSetting()
+        LoginSetting(onLogout = onLogout)
     }
 }
 
-@Preview
 @Composable
-fun LoginSetting() {
+fun LoginSetting(onLogout: () -> Unit) {
     Column(
         Modifier
             .background(Color(0x33FFFFFF))
@@ -72,6 +72,9 @@ fun LoginSetting() {
             modifier = Modifier
                 .fillMaxWidth()
                 .height(50.dp)
+                .clickable {
+                    onLogout.invoke()
+                }
         )
         {
             Text(
