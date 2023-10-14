@@ -33,11 +33,15 @@ import kotlinx.coroutines.launch
 
 
 @Composable
-fun SettingsScreen(onLogout: () -> Unit) {
+fun SettingsScreen(
+    onLogout: () -> Unit,
+    onBack: () -> Unit
+) {
     val coroutine = rememberCoroutineScope()
     Column(
         Modifier
             .background(colorResource(id = com.sarang.theme.R.color.colorSecondaryLight))
+            .clickable { onBack.invoke() }
             .fillMaxSize()
     ) {
         //title bar
@@ -101,7 +105,7 @@ fun PreviewSettingsScreen() {
     val context = LocalContext.current
     SettingsScreen(onLogout = {
         Toast.makeText(context, "logout", Toast.LENGTH_SHORT).show()
-    })
+    }, onBack = {})
 }
 
 @Preview
