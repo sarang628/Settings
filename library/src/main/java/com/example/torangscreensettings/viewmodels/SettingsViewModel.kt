@@ -15,17 +15,19 @@ data class SettingsUiState(val id: String)
 class SettingsViewModel @Inject constructor(
     val useCase: SettingsUseCase
 ) : ViewModel() {
+    suspend fun logout() {
+        useCase.logout()
+    }
+
     private val _uiState = MutableStateFlow(SettingsUiState("")) // 뷰모델에 ID 빈값 지정
     val uiState = _uiState.asStateFlow()
 
     init {
         viewModelScope.launch {
             useCase.getId().collectLatest {
-                it?.let {
-                    _uiState.emit(
-                        uiState.value.copy(id = it)
-                    )
-                }
+                _uiState.emit(
+                    uiState.value.copy(id = it ?: "")
+                )
             }
         }
     }

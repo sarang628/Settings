@@ -19,6 +19,10 @@ class SettingsModule {
             override suspend fun getId(): Flow<String?> {
                 return settingRepository.getUsername()
             }
+
+            override suspend fun logout() {
+                settingRepository.logout()
+            }
         }
     }
 }

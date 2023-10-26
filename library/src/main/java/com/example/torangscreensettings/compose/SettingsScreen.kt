@@ -45,7 +45,7 @@ fun SettingsScreen(
     onLogout: () -> Unit,
     onBack: () -> Unit,
 ) {
-
+    val coroutine = rememberCoroutineScope()
     val uiState by viewModel.uiState.collectAsState()
 
     // 클릭 시 리플 애니메이션을 없애기 위한 변수
@@ -75,7 +75,12 @@ fun SettingsScreen(
             Spacer(modifier = Modifier.width(20.dp))
             Text(text = " Settings and privacy", fontSize = 18.sp, fontWeight = FontWeight.Bold)
         }
-        LoginSetting(onLogout = onLogout, id = uiState.id)
+        LoginSetting(onLogout = {
+            coroutine.launch {
+                viewModel.logout()
+                onLogout.invoke()
+            }
+        }, id = uiState.id)
     }
 }
 
@@ -103,7 +108,9 @@ fun LoginSetting(onLogout: () -> Unit, id: String) {
                     AlertDialog
                         .Builder(context)
                         .setMessage("로그아웃 하시겠습니까?")
-                        .setPositiveButton("예") { _, _ -> onLogout.invoke() }
+                        .setPositiveButton("예") { _, _ ->
+                            onLogout.invoke()
+                        }
                         .setNegativeButton("아니오") { _, _ -> }
                         .show()
                 }
