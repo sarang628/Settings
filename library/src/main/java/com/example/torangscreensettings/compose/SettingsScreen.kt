@@ -52,7 +52,6 @@ fun SettingsScreen(
     val interactionSource = remember { MutableInteractionSource() }
     Column(
         Modifier
-            .background(colorResource(id = com.sarang.theme.R.color.colorSecondaryLight))
             .fillMaxSize()
     ) {
         //title bar

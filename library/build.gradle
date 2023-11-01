@@ -64,7 +64,4 @@ dependencies {
     // collectAsState
     implementation "androidx.lifecycle:lifecycle-runtime-compose:2.6.1"
     implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1"
-
-    /** local */
-    implementation "com.github.sarang628:Theme:$themeVersion"
 }
