@@ -16,8 +16,15 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Button
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -38,6 +45,7 @@ import com.sarang.torang.R
 import com.sarang.torang.viewmodels.SettingsViewModel
 import kotlinx.coroutines.launch
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsScreen(
     viewModel: SettingsViewModel = hiltViewModel(), //뷰모델 주입
@@ -46,39 +54,28 @@ fun SettingsScreen(
 ) {
     val coroutine = rememberCoroutineScope()
     val uiState by viewModel.uiState.collectAsState()
-
-    // 클릭 시 리플 애니메이션을 없애기 위한 변수
     val interactionSource = remember { MutableInteractionSource() }
-    Column(
-        Modifier
-            .fillMaxSize()
-    ) {
-        //title bar
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(12.dp)
-        ) {
-            Image(
-                painter = painterResource(id = R.drawable.ic_back),
-                contentDescription = "",
-                Modifier
-                    .size(25.dp)
-                    .clickable(
-                        interactionSource = interactionSource,
-                        indication = null
-                    ) { onBack.invoke() }
-            )
-            Spacer(modifier = Modifier.width(20.dp))
-            Text(text = " Settings and privacy", fontSize = 18.sp, fontWeight = FontWeight.Bold)
-        }
-        LoginSetting(onLogout = {
-            coroutine.launch {
-                viewModel.logout()
-                onLogout.invoke()
+
+    Scaffold(topBar = {
+        TopAppBar(
+            title = { Text(text = " Settings and privacy", fontSize = 18.sp, fontWeight = FontWeight.Bold) },
+            navigationIcon = {
+                IconButton({
+                    onBack.invoke()
+                }) {
+                    Icon(imageVector = Icons.AutoMirrored.Default.ArrowBack, contentDescription = null)
+                }
             }
-        }, id = uiState.id)
+        )
+    }) {
+        Box(Modifier.padding(it).fillMaxSize()) {
+            LoginSetting(onLogout = {
+                coroutine.launch {
+                    viewModel.logout()
+                    onLogout.invoke()
+                }
+            }, id = uiState.id)
+        }
     }
 }
 
